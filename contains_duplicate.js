@@ -4,6 +4,11 @@
 
 console.log("hello")    
 
-// Input: nums = [1, 2, 3, 3]
+function contains_duplicate(nums){
+console.log(nums);
+}
 
+nums = [1,2,3,3]
+contains_duplicate(nums)
+// Input: nums = [1, 2, 3, 3]
 // Output: true
