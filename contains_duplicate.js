@@ -12,3 +12,14 @@ nums = [1,2,3,3]
 contains_duplicate(nums)
 // Input: nums = [1, 2, 3, 3]
 // Output: true
+
+function containsDuplicate(nums) {
+    const seen = new Set();
+    for (const num of nums) {
+        if (seen.has(num)) {
+            return true;
+        }
+        seen.add(num);
+    }
+    return false;
+}
